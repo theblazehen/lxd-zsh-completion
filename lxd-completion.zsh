@@ -1,4 +1,5 @@
-autoload bashcompinit
+autoload -Uz compinit
+autoload -Uz bashcompinit
 bashcompinit
 _lxd_complete()
 {
